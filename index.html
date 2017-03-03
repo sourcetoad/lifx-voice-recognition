@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<head>
+  <title>Voice Recognition Lifx Demo</title>
+  <link rel="stylesheet" href="src/css/style.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+<body>
+  <div class="text-center">
+    <h1>Lifx Speech Recognition Demo</h1>
+    <h4>Turn on a light bulb via voice recognition in pure JS</h4>
+  </div>
+  <ol>
+    <li>Toggle light power</li>
+    <li>Change the color to [color] (white, red, orange, yellow, cyan, green, blue, purple, pink)</li>
+    <li>Dim the light</li>
+    <li>Go to full brightness</li>
+  </ol>
+  <div class="speech">
+    <div id="mic">
+      <i id="mic-icon" class="fa fa-microphone" aria-hidden="true"></i>
+    </div>
+    <span id="text"></span>
+  </div>
+  <script src="dist/bundle.js"></script>
+</body>
